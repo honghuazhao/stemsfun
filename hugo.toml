@@ -1,4 +1,62 @@
-baseURL = 'https://stemsfun.com/'
-languageCode = 'en-us'
-title = 'STEM Is Fun'
-theme = 'ananke' 
+baseurl = "https://stemsfun.com/"
+title = "STEM is Fun"
+theme = "whiteplain"
+languageCode = "en"
+# Disqus shortname
+disqusShortname = "Shortname"
+# google analytics tracking id
+#googleAnalytics = "Toracking ID"
+
+# Copyright notice. This is displayer in the footer.
+copyright = "&copy; Copyright 2025 James Zhao"
+
+[params]
+  # whether to use CDN or local file for fontawesome
+  useCDN = false
+  # whether to include external sharing scripts and icons for twitter, facebook and co.
+  showShareIcons = false
+  # Date format
+  dateFormat = "January 2, 2006"
+
+# This is displayer in About page.
+[params.author]
+  name = "James Zhao"
+  # Gravatar or Abatar image
+  gravatar = "honghua.zhao@gmail.com"
+  #avatar = "/path/to/avatar"
+  linkedin = "honghuazhao"
+  email = "honghua.zhao@gmail.com"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+# Header Menu
+[[menu.main]]
+  name = "Categories"
+  identifier = "categories"
+  url = "/categories/"
+  weight = 1
+[[menu.main]]
+  name = "Tags"
+  identifier = "tags"
+  url = "/tags/"
+  weight = 2
+[[menu.main]]
+  name = "Archives"
+  identifier = "archives"
+  url = "/archives/"
+  weight = 3
+[[menu.main]]
+  name = "About"
+  identifier = "about"
+  url = "/about/"
+  weight = 4
+
+# Footer Menu
+[[menu.footer]]
+  name = "About"
+  weight = 1
+  identifier = "about"
+  url = "/about/"
