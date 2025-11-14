@@ -3,14 +3,14 @@ date = '2025-04-03T23:12:28-04:00'
 draft = false
 title = 'Tokenization and Word Embedding'
 tags = [
-	"Transformer",
-	"NLP"
+	"transformer",
+	"nlp"
 ]
 series = [
-	"Natural Language Processing with Transformers"
+	"nlp-transformers"
 ]
 categories = [
-	"Book Reading Note"
+	"reading-notes"
 ]
 +++
 

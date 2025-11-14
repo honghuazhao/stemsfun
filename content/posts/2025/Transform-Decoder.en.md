@@ -3,14 +3,14 @@ date = '2025-04-06T01:10:35-04:00'
 draft = false
 title = 'Transformer Decoder'
 tags = [
-	"Transformer",
-	"NLP"
+	"transformer",
+	"nlp"
 ]
 series = [
-	"Natural Language Processing with Transformers"
+	"nlp-transformers"
 ]
 categories = [
-	"Book Reading Note"
+	"reading-notes"
 ]
 +++
 
